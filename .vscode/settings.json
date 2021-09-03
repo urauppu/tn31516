@@ -1,0 +1,24 @@
+{
+    "sqltools.connections": [
+        {
+            "authenticator": "SNOWFLAKE",
+            "ocspOptions": {
+                "ocspFailOpen": true
+            },
+            "snowflakeOptions": {
+                "clientSessionKeepAlive": true,
+                "clientSessionKeepAliveHeartbeatFrequency": 3600,
+                "schema": "landingzone",
+                "role": "sysadmin"
+            },
+            "previewLimit": 50,
+            "driver": "Snowflake",
+            "name": "tn31516",
+            "account": "tn31516.ap-south-1.aws",
+            "username": "kla",
+            "password": "Kla@12345",
+            "database": "sales",
+            "warehouse": "compute_wh"
+        }
+    ]
+}

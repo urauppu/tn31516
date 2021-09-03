@@ -1,0 +1,1 @@
+create or replace view sales_v as select * from landingzone.sales_trans;
